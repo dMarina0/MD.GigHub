@@ -195,13 +195,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202102121443579_gighub_migration.cs" />
-    <Compile Include="Migrations\202102121443579_gighub_migration.Designer.cs">
-      <DependentUpon>202102121443579_gighub_migration.cs</DependentUpon>
+    <Compile Include="Migrations\202102121548103_overrideconditionforgenres.cs" />
+    <Compile Include="Migrations\202102121548103_overrideconditionforgenres.Designer.cs">
+      <DependentUpon>202102121548103_overrideconditionforgenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102121549216_overrideconditionforgenres_1.cs" />
+    <Compile Include="Migrations\202102121549216_overrideconditionforgenres_1.Designer.cs">
+      <DependentUpon>202102121549216_overrideconditionforgenres_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102121550025_overrideconditionforgenres_2.cs" />
+    <Compile Include="Migrations\202102121550025_overrideconditionforgenres_2.Designer.cs">
+      <DependentUpon>202102121550025_overrideconditionforgenres_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102121603025_populateGenresTable.cs" />
+    <Compile Include="Migrations\202102121603025_populateGenresTable.Designer.cs">
+      <DependentUpon>202102121603025_populateGenresTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -281,8 +296,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202102121443579_gighub_migration.resx">
-      <DependentUpon>202102121443579_gighub_migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202102121548103_overrideconditionforgenres.resx">
+      <DependentUpon>202102121548103_overrideconditionforgenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102121549216_overrideconditionforgenres_1.resx">
+      <DependentUpon>202102121549216_overrideconditionforgenres_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102121550025_overrideconditionforgenres_2.resx">
+      <DependentUpon>202102121550025_overrideconditionforgenres_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102121603025_populateGenresTable.resx">
+      <DependentUpon>202102121603025_populateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
